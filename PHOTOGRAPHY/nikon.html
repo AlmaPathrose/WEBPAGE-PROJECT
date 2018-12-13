@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nikon</title>
+        <link href="n-styles.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+       <section id="header">
+            <h3 >
+                   <br>
+                    &nbsp;&nbsp; A PHOTOGRAPH  IS THE PAUSE BUTTON OF LIFE!                   
+                </h3>
+               
+                <img class="gifimg" src="images/giphy.gif">  
+                
+       </section>
+       <section id="middle">
+           <div class="navbuttons">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="index.html">CANON</a>
+                <a href="#middle">NIKON</a>
+                <a href="#">SONY</a>
+                <a href="about-us.html">ABOUT US</a>
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+              
+              <div style="padding-left:16px">
+               
+              </div>
+           </div>
+           <p id="q1"> &nbsp; THE ONLY PLACE TO</p>
+               <p id="q2">BUY PHOTOGRAHY GEAR.</p>
+
+               <div class="outer">
+                <div class="grid">
+        
+                    <div class="Row1">
+                       <a href="images/nikon-d90.gif"> <div id="cell1"><img src="images/nikond90.jpeg" id="90" alt="Nikon D90" ></div></a>
+                        <div id="cell2"><img src="images/nikonD500.jpg" id="500" alt="Nikon D500"></div>
+                        <div id="cell3"><img src="images/nikonD750.jpg" id="750" alt="Nikon D750"></div>
+                    </div>
+        
+                    <div class="Row2">
+                        <div id="cell4"><img src="images/nikonD3200.jpeg" id="3200" alt="Nikon D3200"></div>
+                        <div id="cell5"><img src="images/nikonD3500.jpg" id="3500" alt="Nikon D3500"></div>
+                        <div id="cell6"><img src="images/nikonP1000.png" id="1000" alt="Nikon P1000"></div>
+                    </div>
+
+                    <div class="Row3">
+                        <div id="cell7"><img src="images/nikonD5300.jpg" id="5300" alt="Nikon D5300"></div>
+                        <div id="cell8"><img src="images/nikond5500.jpg" id="5500" alt="Nikon D5500"></div>
+                        <div id="cell9"><img src="images/nikond560.jpeg" id="560" alt="Nikon D560"></div>
+                    </div>
+
+                </div>
+                </div>
+
+       </section>
+       <section id="footer">
+                    <img src="images/canon.png" id="clogo" alt="canon" >
+                    <img src="images/Nikonlogo.jpeg" id="nlogo" alt="nikon">
+                    <img src="images/Sony.png" id="slogo" alt="sony">
+            </section>    
+
+
+
+
+
+       <script>
+      
+        var img = document.getElementById('images/nikond90.jpeg');
+    
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+        </script>
+
+    </body>
+</html>
