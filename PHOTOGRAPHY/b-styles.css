@@ -244,13 +244,12 @@ p
     {
         width: 1000px;
         margin: 0 auto;
-        
-
     }
     .index-banner
     {
         width: 100%;
         height: 720px;
+
     }
 
     .index-banner h1
@@ -326,15 +325,32 @@ footer ul li a
 
 .footer-sm
 {
-    width: 200px;
+    width: 150px;
     float: right;
+    margin-top: -200px;
 }
 
 .footer-sm img
 {
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
+
+
+
+.video-footer
+{
+    margin-top: -15px;
+    margin-left: 34%;
+    margin-right: 34%;
+    padding: 1px 1px 1px 1px;
+    background-color: #fff;
+
+    
+    
+}
+
+
 
 
 body 
